@@ -12,12 +12,7 @@ requires-python = ">=3.12"
 authors = [
     { name = "mohitgabani1", email = "mohitgabani1@gmail.com" }
 ]
-dependencies = [
-    "numpy",
-    "pandas",
-    "scikit-learn",
-    "mlflow"
-]
+dependencies = -r "requirement.txt"
 
 [tool.setuptools.packages.find]
 where = ["src"]  
