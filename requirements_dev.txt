@@ -1,0 +1,9 @@
+numpy
+pandas
+
+# Development dependencies
+pytest
+tox
+black
+flake8
+mypy
