@@ -12,7 +12,12 @@ requires-python = ">=3.12"
 authors = [
     { name = "mohitgabani1", email = "mohitgabani1@gmail.com" }
 ]
-dependencies = -r "requirement.txt"
+dependencies = [
+    "numpy",
+    "pandas",
+    "pytest",
+    "pytest-cov",
+]
 
 [tool.setuptools.packages.find]
 where = ["src"]  
